@@ -9,21 +9,22 @@
 
     <ImageView
         android:id="@+id/iVone"
-        android:layout_width="400px"
-        android:layout_height="400px"
+        android:layout_width="500px"
+        android:layout_height="500px"
 
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/nbgf"
         android:layout_width="306dp"
         android:layout_height="151dp"
         android:backgroundTint="#00FF0B"
         android:onClick="clicked"
-        android:text="Click for image"
+        android:text="click for image"
         android:textColor="#0A3D0A"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
