@@ -19,21 +19,7 @@ public class MainActivity extends AppCompatActivity {
         nbgf = findViewById(R.id.nbgf);
     }
 
-    int x = 1;
 
-    public void clicked(View view) {
-        x = (int) (Math.random() * 3 + 1);
-
-        nbgf.setText(String.valueOf(x));
-
-        if (x == 1) {
-            iVone.setImageResource(R.drawable.commitandpush);
-        } else if (x == 2) {
-            iVone.setImageResource(R.drawable.lil);
-        } else {
-            iVone.setImageResource(R.drawable.sum);
-        }
-    }
 
 }
 
